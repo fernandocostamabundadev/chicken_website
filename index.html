@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff6e8">
+  <meta name="description" content="Frango estaladiço, dourado e preparado na hora. Descubra os favoritos Golden Crunch e escolha o que vai partilhar.">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Golden Crunch — Frango estaladiço, feito para partilhar</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar para o conteúdo</a>
+  <header class="header" id="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="nav__logo" href="#home" aria-label="Golden Crunch — início">
+        <img src="assets/img/logo.svg" alt=""> Golden Crunch
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a class="nav__link active-link" href="#home">Início</a></li>
+          <li><a class="nav__link" href="#about">A nossa história</a></li>
+          <li><a class="nav__link" href="#order">Menu</a></li>
+          <li><a class="nav__link" href="#combo">Combos</a></li>
+          <li><a class="nav__link" href="#contact">Contacto</a></li>
+        </ul>
+        <button class="nav__close" id="nav-close" type="button" aria-label="Fechar navegação">
+          <i class="ri-close-line" aria-hidden="true"></i>
+        </button>
+      </div>
+      <a class="nav__cta" href="#order">Ver ementa <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+      <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="nav-menu">
+        <i class="ri-menu-line" aria-hidden="true"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main class="main" id="main">
+    <section class="home section" id="home" aria-labelledby="home-title">
+      <div class="home__container container grid">
+        <div class="home__data" data-reveal>
+          <span class="eyebrow"><i class="ri-fire-line" aria-hidden="true"></i> Quente, acabado de fazer, pronto a partilhar</span>
+          <h1 class="home__title" id="home-title">Crocante por fora.<br><span>Irresistível</span> por dentro.</h1>
+          <p class="home__description">Frango dourado, tenro e cheio de sabor. Preparado na hora com o nosso tempero especial — para tornar qualquer refeição num momento memorável.</p>
+          <div class="home__actions">
+            <a href="#order" class="button">Descobrir o menu <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+            <span class="home__note"><i class="ri-time-line" aria-hidden="true"></i> Sempre acabado de preparar</span>
+          </div>
+        </div>
+        <div class="home__visual" data-reveal>
+          <span class="home__stamp"><strong>100%</strong><span>feito com<br>cuidado</span></span>
+          <img class="home__image" src="assets/img/home-img.png" alt="Frango frito dourado e estaladiço, pronto a servir" fetchpriority="high">
+          <span class="home__spark home__spark--one" aria-hidden="true">✳</span>
+          <span class="home__spark home__spark--two" aria-hidden="true">✦</span>
+        </div>
+      </div>
+      <a class="home__scroll" href="#about"><span>Desça para descobrir</span><i class="ri-arrow-down-line" aria-hidden="true"></i></a>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about__container container grid">
+        <div class="about__images" data-reveal>
+          <img src="assets/img/about-img-1.png" alt="Frango acabado de preparar na cozinha Golden Crunch" loading="lazy">
+          <img src="assets/img/about-img-2.png" alt="Uma porção de frango crocante para partilhar" loading="lazy">
+          <span class="about__image-note"><i class="ri-heart-3-line" aria-hidden="true"></i> Feito com gosto</span>
+        </div>
+        <div class="about__data" data-reveal>
+          <span class="section__subtitle">A nossa receita para bons momentos</span>
+          <h2 class="section__title" id="about-title">Sabor que junta<br>toda a gente à mesa.</h2>
+          <p class="about__description">Acreditamos que a melhor comida é aquela que se partilha. Por isso, servimos frango bem temperado, com uma cobertura dourada e estaladiça, preparado com atenção em cada pedido.</p>
+          <div class="about__note">
+            <span><i class="ri-timer-flash-line" aria-hidden="true"></i> Preparado na hora</span>
+            <span><i class="ri-heart-3-line" aria-hidden="true"></i> Perfeito para partilhar</span>
+          </div>
+          <a href="#order" class="button button--light">Escolher os favoritos <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="order section" id="order" aria-labelledby="order-title">
+      <div class="container">
+        <div class="section__heading" data-reveal>
+          <span class="section__subtitle">Diretamente da nossa cozinha</span>
+          <h2 class="section__title" id="order-title">Qual vai ser o seu favorito?</h2>
+          <p>Escolha, junte ao seu pedido de demonstração e imagine o primeiro crocante.</p>
+        </div>
+        <div class="order__container grid">
+          <article class="order__card" data-reveal>
+            <span class="order__number">01</span>
+            <img src="assets/img/order-img-1.png" alt="Balde pequeno de frango frito" loading="lazy">
+            <div class="order__card-content">
+              <h3>Balde pequeno</h3>
+              <p>O tamanho certo para um desejo só seu.</p>
+              <button class="order-button" type="button" data-item="Balde pequeno">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="order__card" data-reveal>
+            <span class="order__number">02</span>
+            <img src="assets/img/order-img-2.png" alt="Balde generoso de frango para partilhar" loading="lazy">
+            <div class="order__card-content">
+              <h3>Balde para partilhar</h3>
+              <p>Uma dose generosa para pôr no centro da mesa.</p>
+              <button class="order-button" type="button" data-item="Balde para partilhar">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="order__card" data-reveal>
+            <span class="order__number">03</span>
+            <img src="assets/img/chicken-dam-1.png" alt="Pernas de frango fritas e estaladiças" loading="lazy">
+            <div class="order__card-content">
+              <h3>Pernas crocantes</h3>
+              <p>Douradas, saborosas e com muito para trincar.</p>
+              <button class="order-button" type="button" data-item="Pernas crocantes">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="order__card" data-reveal>
+            <span class="order__number">04</span>
+            <img src="assets/img/chicken-dam-2.png" alt="Pedaços de frango com o tempero da casa" loading="lazy">
+            <div class="order__card-content">
+              <h3>Tempero da casa</h3>
+              <p>O sabor clássico com o equilíbrio perfeito de especiarias.</p>
+              <button class="order-button" type="button" data-item="Frango com tempero da casa">Adicionar ao pedido <i class="ri-add-line" aria-hidden="true"></i></button>
+            </div>
+          </article>
+        </div>
+        <p id="order-status" class="order-status" role="status" aria-live="polite" aria-atomic="true"></p>
+        <p class="order__disclaimer">Demonstração: as escolhas ficam apenas nesta página e não são enviadas.</p>
+      </div>
+    </section>
+
+    <section class="combo section" id="combo" aria-labelledby="combo-title">
+      <div class="combo__container container grid">
+        <div class="combo__data" data-reveal>
+          <span class="section__subtitle">Mais à mesa, melhor ainda</span>
+          <h2 class="section__title" id="combo-title">Partilhar sabe<br><span>sempre melhor.</span></h2>
+          <p>Junte o frango estaladiço aos acompanhamentos de que mais gosta e prepare uma refeição descontraída para todos.</p>
+          <a class="button" href="#order">Escolher frango <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+        </div>
+        <div class="combo__visual" data-reveal>
+          <span class="combo__badge"><i class="ri-star-fill" aria-hidden="true"></i> O plano perfeito</span>
+          <img src="assets/img/combo-img.png" alt="Combo de frango dourado servido com acompanhamentos" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="contact__container container" data-reveal>
+        <span class="section__subtitle">Já lhe abrimos o apetite?</span>
+        <h2 class="section__title" id="contact-title">Hoje pede<br><span>Golden Crunch.</span></h2>
+        <p>Explore o menu e escolha os seus favoritos. Só precisa de decidir com quem vai partilhar.</p>
+        <a class="button button--dark" href="#order">Montar o meu pedido <i class="ri-arrow-right-line" aria-hidden="true"></i></a>
+        <img class="contact__image contact__image--left" src="assets/img/contact-img-1.png" alt="" loading="lazy" aria-hidden="true">
+        <img class="contact__image contact__image--right" src="assets/img/contact-img-2.png" alt="" loading="lazy" aria-hidden="true">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__brand">
+        <a class="nav__logo" href="#home"><img src="assets/img/logo.svg" alt=""> Golden Crunch</a>
+        <p>Frango dourado, bons momentos e mesa sempre cheia.</p>
+      </div>
+      <div class="footer__links">
+        <h2>Descubra</h2>
+        <a href="#about">A nossa história</a>
+        <a href="#order">Menu</a>
+        <a href="#combo">Combos</a>
+      </div>
+      <div class="footer__message">
+        <h2>Feito para partilhar</h2>
+        <p>Preparado com cuidado. Servido com um sorriso.</p>
+        <a href="#home">Voltar ao início <i class="ri-arrow-up-line" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <p class="footer__copy">Golden Crunch. Bom apetite, bons momentos.</p>
+  </footer>
+  <a class="scrollup" id="scroll-up" href="#home" aria-label="Voltar ao início"><i class="ri-arrow-up-line" aria-hidden="true"></i></a>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
